@@ -1,0 +1,59 @@
+.boton-iniciar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 80vh;
+    background-image: url(../assets/img/fondo.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor{
+    width: 25rem;
+    border: 2px solid rgba(0, 0, 0, 0.739);
+    border-radius: .625rem;
+    backdrop-filter: blur(20px);
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 2.3rem;
+        text-align: center;
+        margin-bottom: 1.25rem;
+        color: rgba(0, 0, 0, 0.739);
+    }
+}
+.input-contenedor{
+    margin: 1.875rem 0;
+    width: 18.75rem;
+    color: rgba(0, 0, 0, 0.739);
+    input{
+        height: 1.875rem;
+        width: 60%;
+        border: 0;
+        border-radius: 10px;
+    }
+}
+.olvidar{
+    text-align: center;
+    margin: 10px
+}
+
+.boton{
+    text-align: center;
+    padding: .625rem;
+    button{
+        width: 75%;
+        color: rgba(0, 0, 0, 0.739);
+    }
+}
+.crear-cuenta p {
+    text-align: center;
+    margin: 10px;
+}
+
+
