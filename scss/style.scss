@@ -1,9 +1,16 @@
+@import "./utilities/variables";
+@import "./utilities/mixins";
 @import "./base/reset";
 @import "./layout/header";
 @import "./layout/main";
-@import "./layout/querys";
 @import "./layout/footer";
 @import "./layout/login";
 @import "./layout/registrate";
+@import "./layout/mediaQ/querys1440";
+@import "./layout/mediaQ/querys1024";
+@import "./layout/mediaQ/querys720";
+@import "./layout/mediaQ/querys425";
+@import "./layout/mediaQ/querys320";
+
 
 

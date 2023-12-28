@@ -1,9 +1,8 @@
 main{
     section{
         ul{
-            display: flex;
-            justify-content: space-around;
-            background-color: #dfccfb;
+            @include flex(row, space-around, none);
+            background-color: $color-barra-main;
             padding: 10px;
             list-style: none;
             li{
@@ -11,7 +10,7 @@ main{
                     text-decoration: none;
                     border: 2px solid color #beadfa;
                     border-radius: 10px;
-                    background-color:#BEADFA ;
+                    background-color: $color-ancla-main;
                     padding: 2px 10px;
                     margin: 5px;
                     &:hover{
@@ -115,8 +114,7 @@ section{
     padding: 10px;
     gap: .625rem;
     flex-wrap: wrap;
-    background-image: url(../assets/img/fondo.jpg);
-    
+    background-image: url(../assets/img/fondo.jpg);  
 }
 
 .activo{

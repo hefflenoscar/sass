@@ -1,10 +1,8 @@
 header{
-    background-color: #d0bfffe0;
-    display: flex;
+    background-color: $color-header;
+    @include flex(row, space-between, center);
     width: 100%;
-    justify-content: space-between;
     padding: 1.25rem 1.25rem;
-    align-items: center;
     div{
         a{
             img{
@@ -18,7 +16,7 @@ header{
 
 nav{
     ul{
-        display: flex;
+        @include flex(row, none, none);
         li{
             list-style: none;
             a{

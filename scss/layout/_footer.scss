@@ -1,8 +1,6 @@
 footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #d0bfffe0;
+    @include flex(row, space-between, center);
+    background-color: $color-footer;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
     div{
