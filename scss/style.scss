@@ -1,11 +1,13 @@
 @import "./utilities/variables";
 @import "./utilities/mixins";
 @import "./base/reset";
+@import "./components/buttom.scss";
 @import "./layout/header";
 @import "./layout/main";
 @import "./layout/footer";
 @import "./layout/login";
 @import "./layout/registrate";
+@import "./layout/mediaQ/querys2560";
 @import "./layout/mediaQ/querys1440";
 @import "./layout/mediaQ/querys1024";
 @import "./layout/mediaQ/querys720";
