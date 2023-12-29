@@ -208,13 +208,13 @@ footer div li a:hover {
   font-size: 2.3rem;
   text-align: center;
   margin-bottom: 1.25rem;
-  color: rgba(0, 0, 0, 0.739);
+  color: #440978;
 }
 
 .input-contenedor {
   margin: 1.875rem 0;
   width: 18.75rem;
-  color: rgba(0, 0, 0, 0.739);
+  color: #440978;
 }
 .input-contenedor input {
   height: 1.875rem;
@@ -227,6 +227,11 @@ footer div li a:hover {
   text-align: center;
   margin: 10px;
 }
+.olvidar label a {
+  color: #440978;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
 
 .boton {
   text-align: center;
@@ -234,11 +239,16 @@ footer div li a:hover {
 }
 .boton a {
   text-decoration: none;
+  color: #440978;
 }
 
 .crear-cuenta p {
   text-align: center;
   margin: 10px;
+}
+.crear-cuenta p a {
+  color: #440978;
+  font-size: 1.25rem;
 }
 
 .registrate {
@@ -268,7 +278,7 @@ footer div li a:hover {
   font-size: 2.3rem;
   text-align: center;
   margin-bottom: 1.25rem;
-  color: rgba(0, 0, 0, 0.739);
+  color: #440978;
 }
 
 .input-contenedor-registro {
@@ -284,11 +294,12 @@ footer div li a:hover {
 .input-contenedor-registro label {
   position: relative;
   right: -35px;
-  color: rgba(0, 0, 0, 0.739);
+  color: #440978;
 }
 
 .boton a {
   text-decoration: none;
+  color: #440978;
 }
 
 @media all and (max-width: 2560px) {
